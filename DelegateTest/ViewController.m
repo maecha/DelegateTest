@@ -26,4 +26,21 @@
     // Dispose of any resources that can be recreated.
 }
 
+// OtherViewControllerのデリゲートメソッド
+- (void)otherViewControllerDelegateBackToViewControllerFinished:(OtherViewController *)controller
+{
+    // スタックしてあるビューコントローラに移動（戻ってくる）
+    [self dismissViewControllerAnimated:true completion:nil];
+}
+
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
+{
+    // セグエの識別子がotherViewControllerなら（今回の移動先）
+    if ([[segue identifier] isEqualToString:@"otherViewController"])
+    {
+        // 移動先ビューコントローラのデリゲート先にselfを設定
+        [[segue destinationViewController] setDelegate:self];
+    }
+}
+
 @end

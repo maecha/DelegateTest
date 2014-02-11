@@ -21,6 +21,8 @@
 		E0E55CE618AA698B00E284CC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0E55CC818AA698B00E284CC /* UIKit.framework */; };
 		E0E55CEE18AA698B00E284CC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E0E55CEC18AA698B00E284CC /* InfoPlist.strings */; };
 		E0E55CF018AA698B00E284CC /* DelegateTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E0E55CEF18AA698B00E284CC /* DelegateTestTests.m */; };
+		E0E55CFB18AA69CC00E284CC /* OtherViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E0E55CFA18AA69CC00E284CC /* OtherViewController.m */; };
+		E0E55CFC18AA69CC00E284CC /* OtherViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E0E55CFA18AA69CC00E284CC /* OtherViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,8 @@
 		E0E55CEB18AA698B00E284CC /* DelegateTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DelegateTestTests-Info.plist"; sourceTree = "<group>"; };
 		E0E55CED18AA698B00E284CC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E0E55CEF18AA698B00E284CC /* DelegateTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DelegateTestTests.m; sourceTree = "<group>"; };
+		E0E55CF918AA69CC00E284CC /* OtherViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OtherViewController.h; sourceTree = "<group>"; };
+		E0E55CFA18AA69CC00E284CC /* OtherViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OtherViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +121,8 @@
 				E0E55CD618AA698B00E284CC /* Main.storyboard */,
 				E0E55CD918AA698B00E284CC /* ViewController.h */,
 				E0E55CDA18AA698B00E284CC /* ViewController.m */,
+				E0E55CF918AA69CC00E284CC /* OtherViewController.h */,
+				E0E55CFA18AA69CC00E284CC /* OtherViewController.m */,
 				E0E55CDC18AA698B00E284CC /* Images.xcassets */,
 				E0E55CCB18AA698B00E284CC /* Supporting Files */,
 			);
@@ -250,6 +256,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E0E55CDB18AA698B00E284CC /* ViewController.m in Sources */,
+				E0E55CFB18AA69CC00E284CC /* OtherViewController.m in Sources */,
 				E0E55CD518AA698B00E284CC /* AppDelegate.m in Sources */,
 				E0E55CD118AA698B00E284CC /* main.m in Sources */,
 			);
@@ -260,6 +267,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E0E55CF018AA698B00E284CC /* DelegateTestTests.m in Sources */,
+				E0E55CFC18AA69CC00E284CC /* OtherViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
